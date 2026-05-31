@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "HammersmithOne";
+  src: url("../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/HammersmithOne-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Adamina';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Adamina-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/PlayfairDisplay-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+
+/* CSS FOR LIST.PHP (AI TROUBLESHOOTER PAGE)*/
+
+.bg {
+   background-image: url('../MyHomeVault Assets/BACKGROUND/DESKTOP.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.container , .card {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+    margin-bottom:50px;
+    width: 500px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius:5px;
+}
+
+.card h3 {
+    font-family: 'HammersmithOne', serif;
+    color: #35473A;
+    font-weight:bold;
+}
+
+.card form button {
+    background:#B25416;
+    color: #ffffffff;
+    font-family: 'Montserrat', serif;
+    border:none;
+}
+
+.card form button:hover {
+    background: linear-gradient(to top, #382323, #B25416);
+    color: #ffffffff; 
+    font-family: 'Montserrat', serif;
+    border:none;
+}
+
+.mt-3.d-flex.flex-wrap.gap-2 a,
+.mt-3.d-flex.flex-wrap.gap-2 button {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Montserrat', serif;
+    border: 1px solid #382323;
+    color: #B25416;
+}
+
+.mt-3.d-flex.flex-wrap.gap-2 a:hover,
+.mt-3.d-flex.flex-wrap.gap-2 button:hover {
+    background: linear-gradient(to top, #382323, #B25416);
+    color: #ffffffff;
+}
+
+
+.nav-btn-fixed {
+   width: 250px !important;
+    text-align: center;
+}
+
+.text-center.mt-4 a {
+    background: #ffffff;
+    font-family: 'Montserrat', serif;
+    font-weight:bold;
+    border:1px solid #382323 ;
+    color: #382323!important; 
+}
+
+
+.text-center.mt-4 a:hover {
+    background: #382323;
+    color: #ffffff!important; 
+}

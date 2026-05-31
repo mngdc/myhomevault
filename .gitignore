@@ -1,0 +1,15 @@
+# Database files - contain real data and passwords
+*.sql
+
+# Sensitive config - contains your DB username/password
+includes/db_connect.php
+
+# User uploaded files - no need to track these
+assets/uploads/
+
+# Environment/config files if you ever add them
+.env
+
+# OS junk files
+.DS_Store
+Thumbs.db

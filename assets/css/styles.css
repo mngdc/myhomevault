@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "HammersmithOne";
+  src: url("../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/HammersmithOne-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Adamina';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Adamina-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/PlayfairDisplay-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+
+/*CSS FOR :
+
+-USER SIGN UP
+- USER LOG IN
+- USER DASHBOARD
+
+*/
+
+
+/* USER LOG IN PAGE */
+body {
+  height:100%;
+}
+
+.bg {
+   background-image: url('../MyHomeVault Assets/BACKGROUND/DESKTOP.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.text-center.mb-3 {
+    font-family: 'Adamina', serif;
+    color: #35473A;
+    font-size: 30px;
+    padding-top:30px;
+    padding-bottom:15px;
+}
+
+.card.p-4.shadow {
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius:20px;
+}
+
+
+
+.logo-colored {
+  display:flex;
+  justify-content: center;
+}
+
+.logo-colored img {
+  height:50px;
+  width:50px;
+
+}
+
+.logo-colored h2 {
+    font-family: 'Adamina', serif;
+    color: #35473A;
+    font-size: 20px;
+    text-align: center;
+    margin-top:15px;
+    padding-left:15px;
+}
+
+.card label {
+    font-family: 'Adamina', serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #35473A;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card input {
+    border-bottom: 3px solid #35473A;      
+    padding: 8px;     
+    height:35px;         
+}
+
+.btn.btn-primary {
+  margin-top:30px;
+  margin-bottom:15px;
+  background: #B25416;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn.btn-primary:hover {
+  background: linear-gradient(to top, #382323, #B25416);
+}
+
+.mt-3.text-center {
+  font-family: 'Montserrat', serif;
+  font-size: 15px;
+}
+
+ .mt-3.text-center a {
+  font-family: 'Montserrat', serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight:bold;
+  text-decoration: none;
+  color:#B25416;
+  
+}
+.mt-3.text-center a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #B25416;
+}
+
+/*DASHBOARD PAGE - LOGGED IN*/
+
+.text-start.py2 {
+  display:flex;
+  flex-direction: row;
+  width:80px;
+}
+
+.d-flex.align-items-center.py-2 img {
+  width:50px;
+  height:40px;
+}
+
+.mb-0 {
+  font-family: 'Adamina', serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight:normal;
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+
+.nav-header-bg {
+  background-color: #35473A; /* The green background */
+  color: #ffffff;
+  padding: 10px 16px; 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.nav-header-bg .d-flex.align-items-center a.btn,
+.nav-header-bg .d-flex.align-items-center button.btn {
+  padding: 8px 12px; 
+  border-radius: 0px; 
+  transition: background-color 0.2s ease, color 0.2s ease; 
+  background-color: transparent; 
+  color: #ffffff; 
+  border:none;
+  font-family: 'Montserrat', serif;
+}
+
+.nav-header-bg .d-flex.align-items-center a.btn:hover,
+.nav-header-bg .d-flex.align-items-center button.btn:hover {
+  background-color: #B25416; 
+  color: #ffffff; 
+
+}
+
+.nav-header-bg .btn-outline-primary:hover {
+    background-color: #B25416;
+    border-color: #B25416; 
+    color: #ffffff;
+}
+
+.d-flex.align-items-center a,
+.d-flex.align-items-center button {
+  transition: background-color 0.3s ease;
+}
+
+.intro h4, .intro p , .text-muted p {
+ color: #ffffff;
+ font-family: 'Montserrat', serif;
+}
+
+.intro p {
+  font-size: 20px;
+}
+
+.maincontainertop {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-md-4.mb-3 {
+  width:250px;
+  
+}
+
+.border-top-3, .card.shadow-sm.p-3.mb-3 {
+  border-top: 5px solid #35473A; 
+}
+
+.card.text-center.p-3 , .card.shadow-sm.p-3.mb-3 {
+  border-radius:20px;
+}
+
+.col-md-4.mb-3 h5 , .col-md-6 h5{
+  font-family: 'Playfair Display', serif;
+  color: #35473A;
+  font-weight: normal;
+}
+ .col-md-4.mb-3 h2 {
+  font-family: 'HammersmithOne', serif;
+  color: #35473A;
+ }
+
+ .list-group-item {
+  font-family: 'Montserrat', serif;
+  color: #35473A;
+ }
+
+ /* Recent alerts button */
+ .text-center.alerts a {
+  background: #B25416;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  color: #ffffff;
+ }
+
+  .text-center.alerts a:hover{
+   background: linear-gradient(to top, #382323, #B25416) ;
+   font-family: 'Montserrat', serif;
+  font-weight:bold;
+  color: #ffffff;
+ }
+
+
+ /*UPDATE PROFILE : BUTTONS ETC.*/
+
+.modal-footer .save-changes{
+  margin: 10px;
+}
+
+.modal-footer .save-changes:hover{
+  background: linear-gradient(to top, #382323, #B25416);
+}
+
+.btn.btn-secondary {
+  background: #ffffff;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  border: 1px solid #382323!important;
+}
+
+.custom-btn-text {
+    color: #382323!important; 
+}
+
+.btn.btn-secondary:hover ,
+.custom-btn-text:hover {
+  background: #382323;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  border:none;
+  color: #ffffff!important; 
+}
+
+/*MODAL PROFILE POP-UP*/
+
+.modal-header h5 {
+  color: #35473A; /* Dark color for text */
+  font-family:'HammersmithOne';
+  font-size: 20px;
+}
+
+.modal-body label {
+    color: #35473A; /* Dark color for text */
+    font-family:'Playfair Display';   
+    font-weight: bold;
+}

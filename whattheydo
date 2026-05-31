@@ -1,0 +1,39 @@
+the flow based on my understanding
+index.php
+  ↓
+auth/register.php  → users (INSERT)
+auth/login.php     → users (SELECT)
+  ↓
+dashboard.php      → summaries from inventory_items, maintenance_tasks, alerts
+  ↓
+inventory/list.php → inventory_items (SELECT)
+inventory/add_item.php → inventory/save_item.php (INSERT)
+  ↓
+maintenance/list.php → maintenance_tasks (SELECT)
+maintenance/add_task.php → maintenance/save_task.php (INSERT)
+  ↓
+maintenance/complete_task.php → maintenance_tasks (UPDATE), maintenance_history (INSERT), log file (WRITE)
+  ↓
+alerts/check_warranty.php → inventory_items (SELECT), alerts (INSERT), alerts_log.txt (WRITE)
+alerts/list.php → alerts (SELECT)
+
+
+
+summary
+auth/ = user access
+
+inventory/ = items you own
+
+maintenance/ = schedule & logs
+
+alerts/ = automatic reminders
+
+includes/ = shared tools (database)
+
+dashboard.php = summary hub
+
+index.php = system router (entry gate)
+
+but heres the figma (it has mobile and web, for clarity before you do something, make an ordering of it based on what we did, the relationship and anything that is make sense to you, it has no illustration for ai troubleshooter and user profile, it has detached image where it contains Edit Task, Delete Task, i believe it is related to the maintenance for 3 dotted part when pressed) also there are might be parts that have not been made yet so please list it too for clarification
+
+lastly, contain all design in one css file and affects all related pages

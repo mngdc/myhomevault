@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "HammersmithOne";
+  src: url("../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/HammersmithOne-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Adamina';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Adamina-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/PlayfairDisplay-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+
+/* CSS FOR CHECK WARRANTY PAGE*/
+
+.bg {
+   background-image: url('../MyHomeVault Assets/BACKGROUND/DESKTOP.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius:5px;
+    border:none;
+
+}
+
+
+.card h3,
+.card h5 {
+    color: #35473A; /* Dark color for text */
+    font-family:'HammersmithOne';   
+}
+
+.card p {
+    font-family:'Montserrat', serif;   
+}
+
+.return {
+  background: #B25416;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  
+}
+.return:hover {
+  background: linear-gradient(to top, #382323, #B25416);
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  color: #FFFFFF;
+}

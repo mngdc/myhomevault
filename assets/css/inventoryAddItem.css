@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "HammersmithOne";
+  src: url("../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/HammersmithOne-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Adamina';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Adamina-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/PlayfairDisplay-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+
+/* CSS FOR ADDING INVENTORY ITEM*/
+
+.bg {
+   background-image: url('../MyHomeVault Assets/BACKGROUND/DESKTOP.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius:20px;
+}
+
+.card h4 {
+    color: #35473A; /* Dark color for text */
+    font-family:'HammersmithOne';   
+}
+
+.card form label {
+    color: #35473A; /* Dark color for text */
+    font-family:'Playfair Display';   
+    font-weight: bold;
+}
+
+.equal-btn-group .btn,
+.equal-btn-group a {
+    flex-grow: 1;
+    align-self: flex-start;
+}
+
+.add {
+  background: #B25416;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  
+}
+.add:hover {
+  background: linear-gradient(to top, #382323, #B25416);
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  color: #FFFFFF;
+}
+
+.back, .back-ai {
+   background: #ffffff;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  border: 1px solid #382323;
+  color: #382323;
+}
+
+
+.back:hover ,
+.custom-btn-text:hover {
+  background: #382323;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  border:none;
+  color: #ffffff!important; 
+}

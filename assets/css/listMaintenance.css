@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "HammersmithOne";
+  src: url("../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/HammersmithOne-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Adamina';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Adamina-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/PlayfairDisplay-VariableFont_wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../MyHomeVault Assets/FONT FACES-TYPOGRAPHY/Montserrat-VariableFont_wght.ttf') format("truetype");
+}
+
+/* CSS FOR LIST.PHP (MAINTENANCE LIST)*/
+
+.bg {
+   background-image: url('../MyHomeVault Assets/BACKGROUND/DESKTOP.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.inventory-header-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px; 
+    
+}
+
+.inventory-header-container h3 {
+    margin: 0; 
+    text-decoration: none; 
+    color: #35473A; /* Dark color for text */
+    font-family:'HammersmithOne';
+
+}
+
+.btn.btn-success {
+  background: #B25416;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+}
+
+.btn.btn-success:hover {
+  background: linear-gradient(to top, #382323, #B25416);
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  color: #FFFFFF;
+}
+
+.btn.btn-secondary {
+  background: #ffffff;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  border:none;
+}
+
+.custom-btn-text {
+    color: #382323!important; 
+}
+
+.btn.btn-secondary:hover ,
+.custom-btn-text:hover {
+  background: #382323;
+  font-family: 'Montserrat', serif;
+  font-weight:bold;
+  border:none;
+  color: #ffffff!important; 
+}
+
+/* CIRCLED CHECK*/
+.me-1 button {
+    color: #35473A !important;
+}
+
+.me-1 button:hover {
+     color: #ffffff !important;
+}
